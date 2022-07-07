@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  #logo{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo ul{
+    display: flex;
+}
+#logo ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  body{
+      background-color: lightskyblue;
+  }
+
+  .Navbar{
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+  }
+
+  .navlogo{
+    padding: 10px;
+  }
+
+  .Navele{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 13px;
+    right: 50px;
+  }
+
+  .Navele ul{
+    display: flex;
+  }
+  .Navele ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Navele ul a{
+    padding: 10px;
+    color: rgb(28, 211, 224);
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  .Dropdown{
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    width: 100px;
+    z-index: 1;
+  }
+  .Dropdown:hover .dropdown-menu{
+    display: block;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .logo{
+      height: 55px;
+      width: 55px;
+  }
+
+  #Mid{
+    background: url("Image/4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+  #Mid-1{
+    background: url("Image/5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#Mid-1 .bckgrd p{
+    font-size: 25px;
+}
+
+h1{
+    color: white;
+    font-family: 'Castoro', serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.bckgrd p{
+    color: white;
+  font-weight: bold;
+  font-family: 'Castoro', serif;
+}
+
+.bckgrd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin: 0px 50px;
+}
+
+.soln{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+.soln p{
+    /* background-color: seashell; */
+    color: white;
+    width: 600px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+footer{
+    background: black;
+    height: auto;
+}
+
+footer p{
+    color: aliceblue;
+    text-align: center;
+}
